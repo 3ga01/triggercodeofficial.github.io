@@ -1,0 +1,26 @@
+tr{
+    text-align: left;
+}
+#Nav-List{
+    list-style: none;
+}
+nav{
+    align-items: center;
+        background-color:teal;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+}
+
+#Employee-heading{
+    color: teal
+}
+
+#Heading-Logo{
+    width: 80px;
+
+}
+
+body{
+    /* background-color:darkorange; */
+}

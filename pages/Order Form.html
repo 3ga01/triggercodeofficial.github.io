@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order</title>
+  </head>
+
+  <body>
+    <!-- Nav Bar -->
+    <nav
+      style="
+      align-items: center;
+        background-color: teal;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+      "
+    >
+      <h1 style="padding: 10px;">Logo</h1>
+      <ul style="gap: 20px; list-style: none; display: flex;padding: 10px">
+        <li><a href="lab_2.html">home</a></li>
+        <li><a href="myResume.html">Resume</a></li>
+      </ul>
+    </nav>
+
+    <!-- Creating Forms -->
+    <h1>Form</h1>
+    <form name="Forms">
+      <fieldset>
+        <!-- Details Section -->
+        <legend>Personal Details</legend>
+        <!-- First Name -->
+        <p>
+          First Name <br />
+          <input type="text" placeholder="First Name Only" />
+        </p>
+
+        <!-- Last Name -->
+        <p>
+          Last Name <br />
+          <input type="text" placeholder="Last Name Only" />
+        </p>
+
+        <!-- Date of Birth -->
+        <p>
+          Date Of Birth <br />
+          <input type="date" />
+        </p>
+
+        <!-- Email -->
+        <p>
+          Email <br />
+          <input type="email" placeholder="example@email.com" />
+        </p>
+
+        <!-- URL -->
+        <p>
+          URL <br />
+          <input type="url" placeholder="http://mySelf.com" />
+        </p>
+
+        <!-- Phone Number -->
+        <p>
+          Telephone <br />
+          <input type="tel" placeholder="+233 454 2148" />
+        </p>
+
+        <!-- Shoe Size -->
+        <p>
+          shoe size <br />
+          <input type="number" />
+        </p>
+
+        <!-- Flying Skill Level -->
+        <p>
+          flying skill level(1low - 100 high) <br />
+          <input type="range" min="1" max="100" />
+        </p>
+      </fieldset>
+
+      <!-- Billing Section -->
+      <fieldset>
+        <legend>Billing address</legend>
+
+        <!-- Address -->
+        <p>
+          Address
+          <!-- Text-Area Tag for the big text Box -->
+          <textarea
+            name="Adrress-Box"
+            id="address"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </p>
+
+        <!-- Postal Code -->
+        <p>
+          Post code <br />
+          <input type="text" />
+        </p>
+
+        <!-- Country -->
+        <p>
+          Country <br />
+          <input type="text" />
+        </p>
+      </fieldset>
+
+      <!-- Card Details Section -->
+      <fieldset>
+        <legend>Card Details</legend>
+
+        <!-- Card Type Section -->
+        <fieldset>
+          <legend>Card Type</legend>
+          <input type="radio" name="Card-Type" id="Visa" />Visa
+          <input type="radio" name="Card-Type" id="Mastercard" />MasterCard
+          <input type="radio" name="Card-Type" id="AMEX" />AMEX
+        </fieldset>
+
+        <!-- Name -->
+        <p>
+          Name <br />
+          <input type="text" placeholder="name as it appears on your card" />
+        </p>
+
+        <!-- Card Number -->
+        <p>
+          Card Number <br />
+          <input type="text" />
+        </p>
+
+        <!-- Security Code -->
+        <p>
+          Security Code <br />
+          <input type="text" />
+        </p>
+
+        <!-- Expiry Date -->
+        <p>
+          Expiry Date
+          <input type="datetime-local" />
+        </p>
+
+        <!-- Button Section -->
+        <fieldset>
+          <!-- Button -->
+          <input type="button" value="Place Order" />
+        </fieldset>
+      </fieldset>
+    </form>
+  </body>
+</html>
